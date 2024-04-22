@@ -1,6 +1,5 @@
 <template>
-  <div class="mx-auto p-8 text-center">
-    <p>Last Updated - 11/26/23</p>
+  <div class="mx-auto mt-8 p-8 text-center">
     <p>
       Created by
       <a

@@ -1,91 +1,140 @@
 <template>
-  <div class="mx-auto px-10 pt-10 lg:w-1/2">
-    <p class="mb-2 text-center text-5xl font-bold tracking-tight">
-      Lukaja's Nuxt Template
-    </p>
-    <p class="mb-4 text-center">
-      Nuxt Template used for my personal projects. Includes NuxtUI, ESLint,
-      Prettier, and Google Analytics.
-    </p>
-    <p class="mb-2 mt-4 text-xl font-semibold">Installation</p>
-    <p>
-      1. Clone
-      <a
-        href="https://github.com/lukajaa/lukajaa-nuxt-template/"
-        target="_blank"
-        class="font-semibold text-blue-400 hover:text-blue-500"
-      >
-        this repo
-      </a>
-    </p>
-    <p>2.</p>
-    <UAlert title="Terminal" icon="i-heroicons-command-line" class="text-left">
-      <template #description>yarn <br />yarn dev </template>
-    </UAlert>
-    <p class="mb-2 mt-4 text-xl font-semibold">Updating</p>
-    <UAlert
-      icon="i-heroicons-command-line"
-      title="Terminal"
-      class="mb-4 text-left"
-    >
-      <template #description>
-        yarn outdated<br />yarn add -D packages
-      </template>
-    </UAlert>
-
-    <p class="mb-2 mt-4 text-xl font-semibold">Dependencies</p>
-    <p v-for="(version, dependency) of devDependencies" :key="dependency">
-      {{ dependency }}: {{ version.replace('^', '') }}
-    </p>
-    <ClientOnly>
-      <UButton
-        :icon="
-          isDark ? 'i-heroicons-moon-20-solid' : 'i-heroicons-sun-20-solid'
-        "
-        color="gray"
-        class="fixed right-0 top-0 m-4"
-        size="xl"
-        @click="isDark = !isDark"
+  <div class="px-2 pt-12 transition duration-300 ease-in-out">
+    <div class="mx-auto lg:w-1/3">
+      <p class="text-center text-5xl font-bold">🔎 Baydle 🔍</p>
+      <p class="my-3 text-center text-sm">{{ guesses.length }} / 10 guesses</p>
+      <UInputMenu
+        v-model="selectedTeacher"
+        :options="teacherList"
+        placeholder="Choose a staffulty member"
       />
-      <template #fallback>
-        <div class="h-8 w-8" />
-      </template>
-    </ClientOnly>
+
+      <p
+        v-if="hasWon"
+        class="mt-8 text-center text-2xl font-bold text-[#6AAA64]"
+      >
+        You won! The staffulty member is {{ teacher.Name }}.
+      </p>
+      <p
+        v-if="hasLost"
+        class="mt-8 text-center text-2xl font-bold text-[#E53E3E]"
+      >
+        You lost! The staffulty member is {{ teacher.Name }}.
+      </p>
+
+      <div v-if="guesses.length === 0" class="mt-8">
+        <p>
+          Welcome to Baydle, a game where you guess the Bay staffulty member
+          based on their job title and office number.
+        </p>
+        <p class="mt-4">
+          Select a staffulty member from the dropdown above to get started!
+        </p>
+        <p class="mt-4">
+          <span class="font-semibold text-red-500">Warning:</span> Baydle is
+          currently in beta, meaning many of the job titles have not been
+          properly assigned. Furthermore, game state does not persist through
+          reloads. Please play with caution and report any errors to
+          <a
+            href="mailto:lchang24@bayschoolsf.org"
+            class="font-semibold text-blue-400 hover:text-blue-500"
+          >
+            lchang24@bayschoolsf.org </a
+          >.
+        </p>
+      </div>
+
+      <Guess v-for="guess in guesses" :key="guess" :guess-name="guess" />
+
+      <UDivider label="HELP" class="mb-4 mt-8" />
+
+      <div>
+        <p class="text-2xl font-bold">Gameplay</p>
+        <div class="mt-4 flex flex-row space-x-2 text-sm">
+          <div class="flex w-1/2 flex-col space-y-2">
+            <p class="text-lg font-bold">Office Number</p>
+            <p>A green office number means the office number is spot-on.</p>
+            <p>
+              A yellow office number means the office is on the same floor (or
+              building in the case of 36L and PC) as the correct office.
+            </p>
+            <p>
+              A gray office number means the office is on a different floor or
+              building.
+            </p>
+          </div>
+          <div class="flex w-1/2 flex-col space-y-2">
+            <p class="text-lg font-bold">Job Title</p>
+            <p>A green job title means the job title is spot-on.</p>
+            <p>
+              A yellow job title means the two teachers share at least one role
+              or are in the same department.
+            </p>
+            <p>
+              A gray job title means the two teachers are in different
+              departments.
+            </p>
+          </div>
+        </div>
+        <p class="mt-4 text-lg font-bold">Example</p>
+        <div class="mx-auto mt-2 py-4">
+          <div class="flex flex-col">
+            <div class="rounded-lg text-xl">Scott Mackey</div>
+            <div class="mt-4 flex flex-row space-x-4 text-white">
+              <div class="flex w-1/2 flex-col rounded-lg bg-[#6AAA64] p-4">
+                <p class="text-sm font-semibold">Job Title</p>
+                <p>Faculty (Humanities)</p>
+              </div>
+              <div class="flex w-1/2 flex-col rounded-lg bg-[#787C7E] p-4">
+                <p class="text-sm font-semibold">Office</p>
+                <p>315</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p class="mt-2 indent-8 text-sm">
+          In this example, the guess is Scott Mackey. The guesser guessed that
+          Scott Mackey is a teacher in the Humanities department which is
+          spot-on, so it is green. The guesser also guessed that Scott Mackey is
+          in office 315, which is on the wrong floor, so it is gray.
+        </p>
+        <p class="mt-2 indent-8 text-sm">
+          Possible guesses at this point include Nikhil Wadhwani and Hannah
+          Wagner.
+        </p>
+      </div>
+    </div>
+    <ThemeSwitcher />
   </div>
 </template>
 
 <script setup lang="ts">
-const colorMode = useColorMode();
-const isDark = computed({
-  get() {
-    return colorMode.value === 'dark';
-  },
-  set() {
-    colorMode.preference = colorMode.value === 'dark' ? 'light' : 'dark';
-  },
+import teachers from '~/assets/data/teachers.json';
+import order from '~/assets/data/order.json';
+
+const startDate = new Date('2024-4-21');
+const date = new Date();
+const difInDays = Math.floor(
+  (date.getTime() - startDate.getTime()) / (1000 * 3600 * 24),
+);
+const teacher = ref(teachers[order[difInDays]]);
+
+const teacherList = Object.keys(teachers);
+const selectedTeacher = ref('');
+
+const guesses = ref([]);
+const hasWon = computed(() => {
+  return guesses.value.includes(teacher.value.Name);
 });
 
-const devDependencies = {
-    "@nuxt/devtools": "^1.0.3",
-    "@nuxt/eslint-config": "^0.2.0",
-    "@nuxt/ui": "^2.11.0",
-    "@nuxtjs/eslint-config-typescript": "^12.1.0",
-    "@nuxtjs/eslint-module": "^4.1.0",
-    "@tailwindcss/typography": "^0.5.10",
-    "@types/node": "^20.10.0",
-    "@typescript-eslint/parser": "^6.12.0",
-    "@vueuse/core": "^10.6.1",
-    "@vueuse/nuxt": "^10.6.1",
-    "eslint": "^8.54.0",
-    "eslint-config-prettier": "^9.0.0",
-    "eslint-loader": "^4.0.2",
-    "eslint-plugin-prettier": "^5.0.1",
-    "eslint-plugin-vue": "^9.18.1",
-    "nuxt": "^3.8.2",
-    "nuxt-gtag": "^1.1.1",
-    "prettier": "^3.1.0",
-    "prettier-plugin-tailwindcss": "^0.5.7",
-    "sass": "^1.69.5",
-    "typescript": "^5.3.2"
-};
+const hasLost = computed(() => {
+  return guesses.value.length >= 10 && !hasWon.value;
+});
+
+watch(selectedTeacher, () => {
+  if (selectedTeacher.value && !hasWon.value && !hasLost.value) {
+    guesses.value.unshift(selectedTeacher.value);
+    selectedTeacher.value = '';
+  }
+});
 </script>

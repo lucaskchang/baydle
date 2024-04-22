@@ -1,0 +1,964 @@
+{
+  "Bronimir Adler-Ivanbrook": {
+      "Roles": [
+          "Mathematics"
+      ],
+      "Office": 231,
+      "Job Title": "Faculty (Mathematics)",
+      "True Office": 231,
+      "Name": "Bronimir Adler-Ivanbrook"
+  },
+  "Ted Andersen": {
+      "Roles": [
+          "Arts"
+      ],
+      "Office": 19,
+      "Job Title": "P/T Faculty (Visual Arts)",
+      "True Office": 519,
+      "Name": "Ted Andersen"
+  },
+  "Richard Ault": {
+      "Roles": [
+          "Science"
+      ],
+      "Office": 220,
+      "Job Title": "Faculty (Science)",
+      "True Office": 220,
+      "Name": "Richard Ault"
+  },
+  "Olga Bailess": {
+      "Roles": [
+          "World Languages"
+      ],
+      "Office": 217,
+      "Job Title": "Department Chair (World Languages)",
+      "True Office": 217,
+      "Name": "Olga Bailess"
+  },
+  "Heather Barclay": {
+      "Roles": [
+          "Admin"
+      ],
+      "Office": "Admin Desk",
+      "Job Title": "Administrative Office Coordinator (Temp)",
+      "True Office": 100,
+      "Name": "Heather Barclay"
+  },
+  "Scott Bell": {
+      "Roles": [
+          "College Counseling"
+      ],
+      "Office": "36L-208",
+      "Job Title": "Assistant Director of College Counseling",
+      "True Office": 36208,
+      "Name": "Scott Bell"
+  },
+  "Zoe Bender": {
+      "Roles": [
+          "Humanities"
+      ],
+      "Office": 320,
+      "Job Title": "Faculty (Humanities)",
+      "True Office": 320,
+      "Name": "Zoe Bender"
+  },
+  "Mio Berk": {
+      "Roles": [
+          "Dean"
+      ],
+      "Office": 204,
+      "Job Title": "Dean of Students",
+      "True Office": 204,
+      "Name": "Mio Berk"
+  },
+  "Suzanne Bernier": {
+      "Roles": [
+          "Counselor"
+      ],
+      "Office": "308b",
+      "Job Title": "School Counselor (M/W/Th 8-4)",
+      "True Office": 308,
+      "Name": "Suzanne Bernier"
+  },
+  "Joanna Bethencourt": {
+      "Roles": [
+          "World Languages"
+      ],
+      "Office": 315,
+      "Job Title": "Faculty (World Languages)",
+      "True Office": 315,
+      "Name": "Joanna Bethencourt"
+  },
+  "Tim Betzala": {
+      "Roles": [
+          "Dean"
+      ],
+      "Office": 321,
+      "Job Title": "Dean of Faculty",
+      "True Office": 321,
+      "Name": "Tim Betzala"
+  },
+  "Ben Bingham": {
+      "Roles": [
+          "IT"
+      ],
+      "Office": 323,
+      "Job Title": "Director of IT",
+      "True Office": 323,
+      "Name": "Ben Bingham"
+  },
+  "Denise Blase": {
+      "Roles": [
+          "Arts"
+      ],
+      "Office": 226,
+      "Job Title": "P/T Faculty (Arts); Theatre Director",
+      "True Office": 226,
+      "Name": "Denise Blase"
+  },
+  "Faven Brook": {
+      "Roles": [
+          "Humanities"
+      ],
+      "Office": 215,
+      "Job Title": "Faculty (Humanities)",
+      "True Office": 215,
+      "Name": "Faven Brook"
+  },
+  "Katie Buono": {
+      "Roles": [
+          "Senior Signature Projects"
+      ],
+      "Office": "PC-202",
+      "Job Title": "Faculty (Senior Signature Projects)",
+      "True Office": 4202,
+      "Name": "Katie Buono"
+  },
+  "Craig Butz": {
+      "Roles": [
+          "Humanities",
+          "Senior Signature Projects"
+      ],
+      "Office": "PC",
+      "Job Title": "Faculty (Humanities, Senior Signature Projects)",
+      "True Office": 4000,
+      "Name": "Craig Butz"
+  },
+  "Gyra Chan": {
+      "Roles": [
+          "Advancement"
+      ],
+      "Office": 121,
+      "Job Title": "Associate Director of Advancement",
+      "True Office": 121,
+      "Name": "Gyra Chan"
+  },
+  "T'ai Chu-Richardson": {
+      "Roles": [
+          "Advancement",
+          "IT"
+      ],
+      "Office": 121,
+      "Job Title": "Database Manager & Advancement Assistant",
+      "True Office": 121,
+      "Name": "T'ai Chu-Richardson"
+  },
+  "Vincent Coloyan": {
+      "Roles": [
+          "Athletics"
+      ],
+      "Office": 108,
+      "Job Title": "Assistant Director of Athletics & Basketball Program Coordinator",
+      "True Office": 108,
+      "Name": "Vincent Coloyan"
+  },
+  "Melissa Conneely": {
+      "Roles": [
+          "Admin"
+      ],
+      "Office": "Admin Desk",
+      "Job Title": "Administrative & Health Office Coordinator",
+      "True Office": 100,
+      "Name": "Melissa Conneely"
+  },
+  "Carmel Crane": {
+      "Roles": [
+          "IT"
+      ],
+      "Office": 316,
+      "Job Title": "Educational Technology Integrator",
+      "True Office": 316,
+      "Name": "Carmel Crane"
+  },
+  "Sarah Crockett": {
+      "Roles": [
+          "Mathematics"
+      ],
+      "Office": 315,
+      "Job Title": "Faculty (Mathematics)",
+      "True Office": 315,
+      "Name": "Sarah Crockett"
+  },
+  "Allie Curry": {
+      "Roles": [
+          "Humanities"
+      ],
+      "Office": 318,
+      "Job Title": "Faculty (Humanities)",
+      "True Office": 318,
+      "Name": "Allie Curry"
+  },
+  "Karl Daum": {
+      "Roles": [
+          "Athletics"
+      ],
+      "Office": 307,
+      "Job Title": "Academic & Athletic Program Intern",
+      "True Office": 307,
+      "Name": "Karl Daum"
+  },
+  "Dhruv Dhall": {
+      "Roles": [
+          "Humanities"
+      ],
+      "Office": 220,
+      "Job Title": "Faculty (Humanities)",
+      "True Office": 220,
+      "Name": "Dhruv Dhall"
+  },
+  "Ascha Drake": {
+      "Roles": [
+          "Arts"
+      ],
+      "Office": 320,
+      "Job Title": "Faculty (Visual Art); Instructional Coach",
+      "True Office": 320,
+      "Name": "Ascha Drake"
+  },
+  "Luke Felker": {
+      "Roles": [
+          "Other"
+      ],
+      "Office": 107,
+      "Job Title": "Head of School",
+      "True Office": 107,
+      "Name": "Luke Felker"
+  },
+  "Nicolas Fiszman": {
+      "Roles": [
+          "Science"
+      ],
+      "Office": 16,
+      "Job Title": "Faculty (Science)",
+      "True Office": 516,
+      "Name": "Nicolas Fiszman"
+  },
+  "Judy Fleischman": {
+      "Roles": [
+          "Other"
+      ],
+      "Office": 215,
+      "Job Title": "P/T Mindfulness Educator",
+      "True Office": 215,
+      "Name": "Judy Fleischman"
+  },
+  "Royce Fong": {
+      "Roles": [
+          "Other"
+      ],
+      "Office": 206,
+      "Job Title": "Student Activities Coordinator",
+      "True Office": 206,
+      "Name": "Royce Fong"
+  },
+  "Lani Frazer": {
+      "Roles": [
+          "Other"
+      ],
+      "Office": "36L-101",
+      "Job Title": "Academic Services Coordinator",
+      "True Office": 36101,
+      "Name": "Lani Frazer"
+  },
+  "Jill Frick": {
+      "Roles": [
+          "Other"
+      ],
+      "Office": "232a",
+      "Job Title": "Learning Specialist",
+      "True Office": 232,
+      "Name": "Jill Frick"
+  },
+  "David Friedlander-Holm": {
+      "Roles": [
+          "Science",
+          "Senior Signature Projects"
+      ],
+      "Office": "PC",
+      "Job Title": "Department Chair (Senior Signature Projects), Faculty (Science)",
+      "True Office": 4000,
+      "Name": "David Friedlander-Holm"
+  },
+  "Maria Furtado": {
+      "Roles": [
+          "College Counseling"
+      ],
+      "Office": "36L-209",
+      "Job Title": "Associate Director of College Counseling",
+      "True Office": 36209,
+      "Name": "Maria Furtado"
+  },
+  "Michael Galindo": {
+      "Roles": [
+          "Other"
+      ],
+      "Office": "36L-203",
+      "Job Title": "Director of Admissions & Operations",
+      "True Office": 36203,
+      "Name": "Michael Galindo"
+  },
+  "Samantha Gallop": {
+      "Roles": [
+          "Athletics"
+      ],
+      "Office": 108,
+      "Job Title": "Director of Athletics for Operations",
+      "True Office": 108,
+      "Name": "Samantha Gallop"
+  },
+  "Tessa Garcia": {
+      "Roles": [
+          "Counselor"
+      ],
+      "Office": "308a/308b",
+      "Job Title": "P/T School Counselor",
+      "True Office": 308,
+      "Name": "Tessa Garcia"
+  },
+  "Jess Goldstein": {
+      "Roles": [
+          "Mathematics"
+      ],
+      "Office": 320,
+      "Job Title": "Faculty (Mathematics)",
+      "True Office": 320,
+      "Name": "Jess Goldstein"
+  },
+  "Amy Gonzales": {
+      "Roles": [
+          "Other"
+      ],
+      "Office": "36L-203",
+      "Job Title": "Director of Admissions & Flexible Tuition",
+      "True Office": 36203,
+      "Name": "Amy Gonzales"
+  },
+  "Youssef Harraq": {
+      "Roles": [
+          "Science"
+      ],
+      "Office": 226,
+      "Job Title": "Teaching Fellow (Science)",
+      "True Office": 226,
+      "Name": "Youssef Harraq"
+  },
+  "Kim Hartung": {
+      "Roles": [
+          "Mathematics"
+      ],
+      "Office": 307,
+      "Job Title": "Faculty (Mathematics)",
+      "True Office": 307,
+      "Name": "Kim Hartung"
+  },
+  "Karen Hellyer": {
+      "Roles": [
+          "Arts"
+      ],
+      "Office": 320,
+      "Job Title": "Faculty (Studio & Digital Arts)",
+      "True Office": 320,
+      "Name": "Karen Hellyer"
+  },
+  "Rusty Howson": {
+      "Roles": [
+          "Other"
+      ],
+      "Office": "PC",
+      "Job Title": "Faculty (Design & Engineering)",
+      "True Office": 4001,
+      "Name": "Rusty Howson"
+  },
+  "Mike Hsu": {
+      "Roles": [
+          "World Languages"
+      ],
+      "Office": 316,
+      "Job Title": "Faculty (World Languages)",
+      "True Office": 316,
+      "Name": "Mike Hsu"
+  },
+  "Rita Jajjo": {
+      "Roles": [
+          "Humanities"
+      ],
+      "Office": 316,
+      "Job Title": "Faculty (Humanities)",
+      "True Office": 316,
+      "Name": "Rita Jajjo"
+  },
+  "Dorothy Jones": {
+      "Roles": [
+          "Dean"
+      ],
+      "Office": "36L-206",
+      "Job Title": "Dean of Enrollment Management & Strategic Engagment",
+      "True Office": 36206,
+      "Name": "Dorothy Jones"
+  },
+  "Jean Karnow": {
+      "Roles": [
+          "Other"
+      ],
+      "Office": 121,
+      "Job Title": "Special Events Manager",
+      "True Office": 121,
+      "Name": "Jean Karnow"
+  },
+  "Parul Khare": {
+      "Roles": [
+          "Mathematics"
+      ],
+      "Office": 231,
+      "Job Title": "Department Chair (Mathematics)",
+      "True Office": 231,
+      "Name": "Parul Khare"
+  },
+  "Patti Kim-Gable": {
+      "Roles": [
+          "Humanities"
+      ],
+      "Office": 226,
+      "Job Title": "P/T Faculty (Humanities)",
+      "True Office": 226,
+      "Name": "Patti Kim-Gable"
+  },
+  "Caitlin King": {
+      "Roles": [
+          "Humanities"
+      ],
+      "Office": 318,
+      "Job Title": "Faculty (Humanities); Instructional Coach",
+      "True Office": 318,
+      "Name": "Caitlin King"
+  },
+  "Eric Krieger": {
+      "Roles": [
+          "Advancement",
+          "Athletics"
+      ],
+      "Office": 108,
+      "Job Title": "Associate Director of Athletics for Athletic Advancement",
+      "True Office": 108,
+      "Name": "Eric Krieger"
+  },
+  "Kat Lado": {
+      "Roles": [
+          "Other"
+      ],
+      "Office": "Front Desk",
+      "Job Title": "Front Desk Coordinator",
+      "True Office": 100,
+      "Name": "Kat Lado"
+  },
+  "Lucci Lautze": {
+      "Roles": [
+          "Dean"
+      ],
+      "Office": 206,
+      "Job Title": "Assistant Dean of Students & 9th Grade Dean",
+      "True Office": 206,
+      "Name": "Lucci Lautze"
+  },
+  "Israel (Alex) Lazo": {
+      "Roles": [
+          "Other"
+      ],
+      "Office": 206,
+      "Job Title": "Inclusion & Access Specialist & Program Director of Jump Start",
+      "True Office": 206,
+      "Name": "Israel (Alex) Lazo"
+  },
+  "Rich Levine": {
+      "Roles": [
+          "Other"
+      ],
+      "Office": 118,
+      "Job Title": "Director of Special Projects & Operations",
+      "True Office": 118,
+      "Name": "Rich Levine"
+  },
+  "Elizabeth Lyons": {
+      "Roles": [
+          "World Languages"
+      ],
+      "Office": 316,
+      "Job Title": "Faculty (World Languages)",
+      "True Office": 316,
+      "Name": "Elizabeth Lyons"
+  },
+  "Adam Macalister": {
+      "Roles": [
+          "Humanities",
+          "Senior Signature Projects"
+      ],
+      "Office": "PC-202",
+      "Job Title": "Faculty (Humanities, Senior Signature Projects)",
+      "True Office": 4202,
+      "Name": "Adam Macalister"
+  },
+  "Scott Mackey": {
+      "Roles": [
+          "Humanities"
+      ],
+      "Office": 315,
+      "Job Title": "Faculty (Humanities)",
+      "True Office": 315,
+      "Name": "Scott Mackey"
+  },
+  "Katie Markelz": {
+      "Roles": [
+          "Other"
+      ],
+      "Office": 106,
+      "Job Title": "Human Resources Generalist",
+      "True Office": 106,
+      "Name": "Katie Markelz"
+  },
+  "Laila McClay": {
+      "Roles": [
+          "Dean"
+      ],
+      "Office": "36L-101",
+      "Job Title": "Interim Dean of Academics & Innovation",
+      "True Office": 36101,
+      "Name": "Laila McClay"
+  },
+  "Susie McCobb": {
+      "Roles": [
+          "Other"
+      ],
+      "Office": 109,
+      "Job Title": "Executive Assistant to the Heads of School",
+      "True Office": 109,
+      "Name": "Susie McCobb"
+  },
+  "Saturn McCoy": {
+      "Roles": [
+          "Other"
+      ],
+      "Office": 203,
+      "Job Title": "Health & Wellness Educator",
+      "True Office": 203,
+      "Name": "Saturn McCoy"
+  },
+  "Tyler McDougold": {
+      "Roles": [
+          "Science"
+      ],
+      "Office": 315,
+      "Job Title": "Faculty (Science)",
+      "True Office": 315,
+      "Name": "Tyler McDougold"
+  },
+  "Gina Meneni": {
+      "Roles": [
+          "College Counseling"
+      ],
+      "Office": "36L-210",
+      "Job Title": "Director of College Counseling",
+      "True Office": 36210,
+      "Name": "Gina Meneni"
+  },
+  "Mathew Merrill": {
+      "Roles": [
+          "Mathematics"
+      ],
+      "Office": 235,
+      "Job Title": "Faculty (Mathematics)",
+      "True Office": 235,
+      "Name": "Mathew Merrill"
+  },
+  "Craig Miller": {
+      "Roles": [
+          "Humanities"
+      ],
+      "Office": 307,
+      "Job Title": "Department Chair (Humanities)",
+      "True Office": 307,
+      "Name": "Craig Miller"
+  },
+  "Tomy Monzon": {
+      "Roles": [
+          "Other"
+      ],
+      "Office": "36L-206",
+      "Job Title": "Admissions Associate",
+      "True Office": 36206,
+      "Name": "Tomy Monzon"
+  },
+  "Kelly Owen": {
+      "Roles": [
+          "Science",
+          "Dean"
+      ],
+      "Office": 203,
+      "Job Title": "11th Grade Dean & Faculty (Science)",
+      "True Office": 203,
+      "Name": "Kelly Owen"
+  },
+  "Terry Pap": {
+      "Roles": [
+          "Other"
+      ],
+      "Office": "36L-206",
+      "Job Title": "Assistant Director of Admissions",
+      "True Office": 36206,
+      "Name": "Terry Pap"
+  },
+  "Kyle Persau": {
+      "Roles": [
+          "Science"
+      ],
+      "Office": "PC-204",
+      "Job Title": "Faculty (Science)",
+      "True Office": 4204,
+      "Name": "Kyle Persau"
+  },
+  "Bree Pickford-Murray": {
+      "Roles": [
+          "Other"
+      ],
+      "Office": 235,
+      "Job Title": "Faculty (Math)",
+      "True Office": 235,
+      "Name": "Bree Pickford-Murray"
+  },
+  "Aaron Plantenberg": {
+      "Roles": [
+          "World Languages",
+          "Dean"
+      ],
+      "Office": 203,
+      "Job Title": "12th Grade Dean & Faculty (World Languages)",
+      "True Office": 203,
+      "Name": "Aaron Plantenberg"
+  },
+  "Ryan Poling": {
+      "Roles": [
+          "Science"
+      ],
+      "Office": 215,
+      "Job Title": "Faculty (Science)",
+      "True Office": 215,
+      "Name": "Ryan Poling"
+  },
+  "Daniel Rathman": {
+      "Roles": [
+          "Other"
+      ],
+      "Office": "36L-101",
+      "Job Title": "Registrar; Baseball Coach",
+      "True Office": 36101,
+      "Name": "Daniel Rathman"
+  },
+  "Mizrain (Rey) Reyes": {
+      "Roles": [
+          "Other"
+      ],
+      "Office": 106,
+      "Job Title": "Director of Facilities",
+      "True Office": 106,
+      "Name": "Mizrain (Rey) Reyes"
+  },
+  "Katherine Riley": {
+      "Roles": [
+          "Arts"
+      ],
+      "Office": 215,
+      "Job Title": "Department Chair (Art)",
+      "True Office": 215,
+      "Name": "Katherine Riley"
+  },
+  "Kevin Rogers": {
+      "Roles": [
+          "Other"
+      ],
+      "Office": 121,
+      "Job Title": "Chief Financial & Operations Officer",
+      "True Office": 121,
+      "Name": "Kevin Rogers"
+  },
+  "Alice Rose": {
+      "Roles": [
+          "Other"
+      ],
+      "Office": 238,
+      "Job Title": "Associate Director of Learning Services",
+      "True Office": 238,
+      "Name": "Alice Rose"
+  },
+  "Gilberto Saenz": {
+      "Roles": [
+          "Other"
+      ],
+      "Office": "Basement",
+      "Job Title": "Facilities",
+      "True Office": 500,
+      "Name": "Gilberto Saenz"
+  },
+  "Lauren Santo Domingo": {
+      "Roles": [
+          "Science"
+      ],
+      "Office": 231,
+      "Job Title": "Faculty (Science)",
+      "True Office": 231,
+      "Name": "Lauren Santo Domingo"
+  },
+  "Jenni Sapio": {
+      "Roles": [
+          "Humanities"
+      ],
+      "Office": 307,
+      "Job Title": "Faculty (Humanities)",
+      "True Office": 307,
+      "Name": "Jenni Sapio"
+  },
+  "Melissa Sara": {
+      "Roles": [
+          "IT"
+      ],
+      "Office": 323,
+      "Job Title": "IT Support Specialist",
+      "True Office": 323,
+      "Name": "Melissa Sara"
+  },
+  "Miles Schulman": {
+      "Roles": [
+          "Mathematics"
+      ],
+      "Office": 226,
+      "Job Title": "Faculty (Mathematics)",
+      "True Office": 226,
+      "Name": "Miles Schulman"
+  },
+  "Kristina Sears": {
+      "Roles": [
+          "Other"
+      ],
+      "Office": "232b",
+      "Job Title": "Director of Learning Services",
+      "True Office": 232,
+      "Name": "Kristina Sears"
+  },
+  "Rachel Shaw": {
+      "Roles": [
+          "Other"
+      ],
+      "Office": "Library",
+      "Job Title": "Librarian",
+      "True Office": 199,
+      "Name": "Rachel Shaw"
+  },
+  "Hayden Shea": {
+      "Roles": [
+          "Science"
+      ],
+      "Office": 235,
+      "Job Title": "Faculty (Science)",
+      "True Office": 235,
+      "Name": "Hayden Shea"
+  },
+  "Lise Shelton": {
+      "Roles": [
+          "Other"
+      ],
+      "Office": 105,
+      "Job Title": "Associate Head of School",
+      "True Office": 105,
+      "Name": "Lise Shelton"
+  },
+  "Eduardo Soza": {
+      "Roles": [
+          "Other"
+      ],
+      "Office": "Basement",
+      "Job Title": "Facilities",
+      "True Office": 500,
+      "Name": "Eduardo Soza"
+  },
+  "Julie Spector-Sprague": {
+      "Roles": [
+          "Science"
+      ],
+      "Office": 220,
+      "Job Title": "Department Chair (Science)",
+      "True Office": 220,
+      "Name": "Julie Spector-Sprague"
+  },
+  "Amy Talbot": {
+      "Roles": [
+          "Advancement"
+      ],
+      "Office": 125,
+      "Job Title": "Director of Advancement",
+      "True Office": 125,
+      "Name": "Amy Talbot"
+  },
+  "Roxana Taquechel-Chaigneau": {
+      "Roles": [
+          "World Languages"
+      ],
+      "Office": 217,
+      "Job Title": "Faculty (World Languages)",
+      "True Office": 217,
+      "Name": "Roxana Taquechel-Chaigneau"
+  },
+  "Rachel Tennenbaum": {
+      "Roles": [
+          "Other"
+      ],
+      "Office": 122,
+      "Job Title": "Director of Human Resources",
+      "True Office": 122,
+      "Name": "Rachel Tennenbaum"
+  },
+  "Ashley Terry": {
+      "Roles": [
+          "College Counseling"
+      ],
+      "Office": "36L-209",
+      "Job Title": "Associate Director of College Counseling",
+      "True Office": 36209,
+      "Name": "Ashley Terry"
+  },
+  "Wilder Treadway": {
+      "Roles": [
+          "Other"
+      ],
+      "Office": 119,
+      "Job Title": "Associate Director of Marketing & Communications",
+      "True Office": 119,
+      "Name": "Wilder Treadway"
+  },
+  "Kelleigh Trowbridge": {
+      "Roles": [
+          "IT"
+      ],
+      "Office": 322,
+      "Job Title": "Data Systems Manager",
+      "True Office": 322,
+      "Name": "Kelleigh Trowbridge"
+  },
+  "Ana Maria Vargas": {
+      "Roles": [
+          "World Languages"
+      ],
+      "Office": 235,
+      "Job Title": "Faculty (World Languages)",
+      "True Office": 235,
+      "Name": "Ana Maria Vargas"
+  },
+  "Christina Velasco": {
+      "Roles": [
+          "Counselor"
+      ],
+      "Office": "308a",
+      "Job Title": "School Counselor (Tu/W/F 8-4)",
+      "True Office": 308,
+      "Name": "Christina Velasco"
+  },
+  "Paola Villalvazo Cota": {
+      "Roles": [
+          "World Languages",
+          "Dean"
+      ],
+      "Office": 206,
+      "Job Title": "10th Grade Dean & Faculty (World Languages)",
+      "True Office": 206,
+      "Name": "Paola Villalvazo Cota"
+  },
+  "Michael Vossen": {
+      "Roles": [
+          "World Languages"
+      ],
+      "Office": 220,
+      "Job Title": "Faculty (World Languages)",
+      "True Office": 220,
+      "Name": "Michael Vossen"
+  },
+  "Nikhil Wadhwani": {
+      "Roles": [
+          "Humanities"
+      ],
+      "Office": 231,
+      "Job Title": "Faculty (Humanities)",
+      "True Office": 231,
+      "Name": "Nikhil Wadhwani"
+  },
+  "Hannah Wagner": {
+      "Roles": [
+          "Humanities"
+      ],
+      "Office": 217,
+      "Job Title": "Faculty (Humanities)",
+      "True Office": 217,
+      "Name": "Hannah Wagner"
+  },
+  "Corey Walsh": {
+      "Roles": [
+          "Other"
+      ],
+      "Office": 16,
+      "Job Title": "Faculty (Math)",
+      "True Office": 516,
+      "Name": "Corey Walsh"
+  },
+  "Colin Williams": {
+      "Roles": [
+          "Humanities"
+      ],
+      "Office": 19,
+      "Job Title": "Faculty (Music, Humanities)",
+      "True Office": 519,
+      "Name": "Colin Williams"
+  },
+  "Jennifer Wolfe": {
+      "Roles": [
+          "Other"
+      ],
+      "Office": 119,
+      "Job Title": "Director of Marketing & Communications",
+      "True Office": 119,
+      "Name": "Jennifer Wolfe"
+  },
+  "Robin Workman": {
+      "Roles": [
+          "Humanities"
+      ],
+      "Office": 217,
+      "Job Title": "Faculty (Humanities)",
+      "True Office": 217,
+      "Name": "Robin Workman"
+  },
+  "Dennis Yang": {
+      "Roles": [
+          "World Languages"
+      ],
+      "Office": 318,
+      "Job Title": "Faculty (World Languages)",
+      "True Office": 318,
+      "Name": "Dennis Yang"
+  }
+}
