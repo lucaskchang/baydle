@@ -31,7 +31,7 @@
           "World Languages"
       ],
       "Office": 217,
-      "Job Title": "Department Chair (World Languages)",
+      "Job Title": "Faculty (World Languages)",
       "True Office": 217,
       "Name": "Olga Bailess"
   },
@@ -296,7 +296,7 @@
           "Senior Signature Projects"
       ],
       "Office": "PC",
-      "Job Title": "Department Chair (Senior Signature Projects), Faculty (Science)",
+      "Job Title": "Faculty (Senior Signature Projects), Faculty (Science)",
       "True Office": 4000,
       "Name": "David Friedlander-Holm"
   },
@@ -433,7 +433,7 @@
           "Mathematics"
       ],
       "Office": 231,
-      "Job Title": "Department Chair (Mathematics)",
+      "Job Title": "Faculty (Mathematics)",
       "True Office": 231,
       "Name": "Parul Khare"
   },
@@ -596,7 +596,7 @@
           "Humanities"
       ],
       "Office": 307,
-      "Job Title": "Department Chair (Humanities)",
+      "Job Title": "Faculty (Humanities)",
       "True Office": 307,
       "Name": "Craig Miller"
   },
@@ -688,7 +688,7 @@
           "Arts"
       ],
       "Office": 215,
-      "Job Title": "Department Chair (Art)",
+      "Job Title": "Faculty (Arts)",
       "True Office": 215,
       "Name": "Katherine Riley"
   },
@@ -805,7 +805,7 @@
           "Science"
       ],
       "Office": 220,
-      "Job Title": "Department Chair (Science)",
+      "Job Title": "Faculty (Science)",
       "True Office": 220,
       "Name": "Julie Spector-Sprague"
   },
