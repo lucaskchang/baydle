@@ -32,9 +32,7 @@
         </p>
         <p class="mt-4">
           <span class="font-semibold text-red-500">Warning:</span> Baydle is
-          currently in beta, meaning many of the job titles have not been
-          properly assigned. Furthermore, game state does not persist through
-          reloads. Please play with caution and report any errors to
+          currently in beta. Please play with caution and report any errors to
           <a
             href="mailto:lchang24@bayschoolsf.org"
             class="font-semibold text-blue-400 hover:text-blue-500"
@@ -135,6 +133,24 @@ watch(selectedTeacher, () => {
   if (selectedTeacher.value && !hasWon.value && !hasLost.value) {
     guesses.value.unshift(selectedTeacher.value);
     selectedTeacher.value = '';
+  }
+});
+
+const saveGameState = () => {
+  localStorage.setItem('baydle', JSON.stringify(guesses.value));
+  localStorage.setItem('baydle-date', date.toISOString());
+};
+watch(guesses, saveGameState, { deep: true });
+
+onMounted(() => {
+  const savedDate = localStorage.getItem('baydle-date');
+  if (savedDate && new Date(savedDate).getDate() !== date.getDate()) {
+    localStorage.removeItem('baydle');
+    localStorage.removeItem('baydle-date');
+  }
+  const savedGameState = localStorage.getItem('baydle');
+  if (savedGameState) {
+    guesses.value = JSON.parse(savedGameState);
   }
 });
 </script>
