@@ -3,7 +3,7 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   app: {
     head: {
-      title: 'Lukajaa Nuxt Template',
+      title: 'Baydle',
     },
   },
   css: ['@/assets/styles/main.scss'],
