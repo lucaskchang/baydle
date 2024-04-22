@@ -1,6 +1,6 @@
 <template>
   <div class="px-2 pt-12 transition duration-300 ease-in-out">
-    <div class="mx-auto lg:w-1/3">
+    <div class="mx-auto w-full lg:w-1/3">
       <p class="text-center text-5xl font-bold">🔎 Baydle 🔍</p>
       <p class="my-3 text-center text-sm">{{ guesses.length }} / 10 guesses</p>
       <UInputMenu

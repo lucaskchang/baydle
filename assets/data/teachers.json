@@ -13,7 +13,7 @@
           "Arts"
       ],
       "Office": 19,
-      "Job Title": "P/T Faculty (Visual Arts)",
+      "Job Title": "Faculty (Arts)",
       "True Office": 519,
       "Name": "Ted Andersen"
   },
@@ -40,7 +40,7 @@
           "Admin"
       ],
       "Office": "Admin Desk",
-      "Job Title": "Administrative Office Coordinator (Temp)",
+      "Job Title": "Administrative Office Coordinator",
       "True Office": 100,
       "Name": "Heather Barclay"
   },
@@ -49,7 +49,7 @@
           "College Counseling"
       ],
       "Office": "36L-208",
-      "Job Title": "Assistant Director of College Counseling",
+      "Job Title": "College Counselor",
       "True Office": 36208,
       "Name": "Scott Bell"
   },
@@ -64,7 +64,7 @@
   },
   "Mio Berk": {
       "Roles": [
-          "Dean"
+          "Student Life"
       ],
       "Office": 204,
       "Job Title": "Dean of Students",
@@ -73,10 +73,11 @@
   },
   "Suzanne Bernier": {
       "Roles": [
-          "Counselor"
+          "Counselor",
+          "Health"
       ],
       "Office": "308b",
-      "Job Title": "School Counselor (M/W/Th 8-4)",
+      "Job Title": "School Counselor",
       "True Office": 308,
       "Name": "Suzanne Bernier"
   },
@@ -91,7 +92,7 @@
   },
   "Tim Betzala": {
       "Roles": [
-          "Dean"
+          "Leadership"
       ],
       "Office": 321,
       "Job Title": "Dean of Faculty",
@@ -112,7 +113,7 @@
           "Arts"
       ],
       "Office": 226,
-      "Job Title": "P/T Faculty (Arts); Theatre Director",
+      "Job Title": "Faculty (Arts); Theatre Director",
       "True Office": 226,
       "Name": "Denise Blase"
   },
@@ -168,7 +169,7 @@
           "Athletics"
       ],
       "Office": 108,
-      "Job Title": "Assistant Director of Athletics & Basketball Program Coordinator",
+      "Job Title": "Assistant Director of Athletics",
       "True Office": 108,
       "Name": "Vincent Coloyan"
   },
@@ -231,13 +232,13 @@
           "Arts"
       ],
       "Office": 320,
-      "Job Title": "Faculty (Visual Art); Instructional Coach",
+      "Job Title": "Faculty (Arts)",
       "True Office": 320,
       "Name": "Ascha Drake"
   },
   "Luke Felker": {
       "Roles": [
-          "Other"
+          "Leadership"
       ],
       "Office": 107,
       "Job Title": "Head of School",
@@ -258,7 +259,7 @@
           "Other"
       ],
       "Office": 215,
-      "Job Title": "P/T Mindfulness Educator",
+      "Job Title": "Mindfulness Educator",
       "True Office": 215,
       "Name": "Judy Fleischman"
   },
@@ -273,7 +274,7 @@
   },
   "Lani Frazer": {
       "Roles": [
-          "Other"
+          "Academics"
       ],
       "Office": "36L-101",
       "Job Title": "Academic Services Coordinator",
@@ -304,13 +305,13 @@
           "College Counseling"
       ],
       "Office": "36L-209",
-      "Job Title": "Associate Director of College Counseling",
+      "Job Title": "College Counselor",
       "True Office": 36209,
       "Name": "Maria Furtado"
   },
   "Michael Galindo": {
       "Roles": [
-          "Other"
+          "Admissions"
       ],
       "Office": "36L-203",
       "Job Title": "Director of Admissions & Operations",
@@ -328,10 +329,11 @@
   },
   "Tessa Garcia": {
       "Roles": [
-          "Counselor"
+          "Counselor",
+          "Health"
       ],
       "Office": "308a/308b",
-      "Job Title": "P/T School Counselor",
+      "Job Title": "School Counselor",
       "True Office": 308,
       "Name": "Tessa Garcia"
   },
@@ -346,7 +348,7 @@
   },
   "Amy Gonzales": {
       "Roles": [
-          "Other"
+          "Admissions"
       ],
       "Office": "36L-203",
       "Job Title": "Director of Admissions & Flexible Tuition",
@@ -358,7 +360,7 @@
           "Science"
       ],
       "Office": 226,
-      "Job Title": "Teaching Fellow (Science)",
+      "Job Title": "Faculty (Science)",
       "True Office": 226,
       "Name": "Youssef Harraq"
   },
@@ -376,13 +378,13 @@
           "Arts"
       ],
       "Office": 320,
-      "Job Title": "Faculty (Studio & Digital Arts)",
+      "Job Title": "Faculty (Arts)",
       "True Office": 320,
       "Name": "Karen Hellyer"
   },
   "Rusty Howson": {
       "Roles": [
-          "Other"
+          "Arts"
       ],
       "Office": "PC",
       "Job Title": "Faculty (Design & Engineering)",
@@ -409,7 +411,8 @@
   },
   "Dorothy Jones": {
       "Roles": [
-          "Dean"
+          "Admissions",
+          "College Counseling"
       ],
       "Office": "36L-206",
       "Job Title": "Dean of Enrollment Management & Strategic Engagment",
@@ -448,23 +451,22 @@
           "Humanities"
       ],
       "Office": 318,
-      "Job Title": "Faculty (Humanities); Instructional Coach",
+      "Job Title": "Faculty (Humanities)",
       "True Office": 318,
       "Name": "Caitlin King"
   },
   "Eric Krieger": {
       "Roles": [
-          "Advancement",
           "Athletics"
       ],
       "Office": 108,
-      "Job Title": "Associate Director of Athletics for Athletic Advancement",
+      "Job Title": "Associate Director of Athletics",
       "True Office": 108,
       "Name": "Eric Krieger"
   },
   "Kat Lado": {
       "Roles": [
-          "Other"
+          "Admin"
       ],
       "Office": "Front Desk",
       "Job Title": "Front Desk Coordinator",
@@ -473,7 +475,7 @@
   },
   "Lucci Lautze": {
       "Roles": [
-          "Dean"
+          "Student Life"
       ],
       "Office": 206,
       "Job Title": "Assistant Dean of Students & 9th Grade Dean",
@@ -482,7 +484,7 @@
   },
   "Israel (Alex) Lazo": {
       "Roles": [
-          "Other"
+          "Student Life"
       ],
       "Office": 206,
       "Job Title": "Inclusion & Access Specialist & Program Director of Jump Start",
@@ -491,7 +493,7 @@
   },
   "Rich Levine": {
       "Roles": [
-          "Other"
+          "Leadership"
       ],
       "Office": 118,
       "Job Title": "Director of Special Projects & Operations",
@@ -528,7 +530,7 @@
   },
   "Katie Markelz": {
       "Roles": [
-          "Other"
+          "Admin"
       ],
       "Office": 106,
       "Job Title": "Human Resources Generalist",
@@ -537,7 +539,7 @@
   },
   "Laila McClay": {
       "Roles": [
-          "Dean"
+          "Academics"
       ],
       "Office": "36L-101",
       "Job Title": "Interim Dean of Academics & Innovation",
@@ -546,7 +548,7 @@
   },
   "Susie McCobb": {
       "Roles": [
-          "Other"
+          "Leadership"
       ],
       "Office": 109,
       "Job Title": "Executive Assistant to the Heads of School",
@@ -555,7 +557,7 @@
   },
   "Saturn McCoy": {
       "Roles": [
-          "Other"
+          "Health"
       ],
       "Office": 203,
       "Job Title": "Health & Wellness Educator",
@@ -576,7 +578,7 @@
           "College Counseling"
       ],
       "Office": "36L-210",
-      "Job Title": "Director of College Counseling",
+      "Job Title": "College Counselor",
       "True Office": 36210,
       "Name": "Gina Meneni"
   },
@@ -600,7 +602,7 @@
   },
   "Tomy Monzon": {
       "Roles": [
-          "Other"
+          "Admissions"
       ],
       "Office": "36L-206",
       "Job Title": "Admissions Associate",
@@ -610,7 +612,7 @@
   "Kelly Owen": {
       "Roles": [
           "Science",
-          "Dean"
+          "Student Life"
       ],
       "Office": 203,
       "Job Title": "11th Grade Dean & Faculty (Science)",
@@ -619,7 +621,7 @@
   },
   "Terry Pap": {
       "Roles": [
-          "Other"
+          "Admissions"
       ],
       "Office": "36L-206",
       "Job Title": "Assistant Director of Admissions",
@@ -637,17 +639,17 @@
   },
   "Bree Pickford-Murray": {
       "Roles": [
-          "Other"
+          "Mathematics"
       ],
       "Office": 235,
-      "Job Title": "Faculty (Math)",
+      "Job Title": "Faculty (Mathematics)",
       "True Office": 235,
       "Name": "Bree Pickford-Murray"
   },
   "Aaron Plantenberg": {
       "Roles": [
           "World Languages",
-          "Dean"
+          "Student Life"
       ],
       "Office": 203,
       "Job Title": "12th Grade Dean & Faculty (World Languages)",
@@ -665,7 +667,7 @@
   },
   "Daniel Rathman": {
       "Roles": [
-          "Other"
+          "Academics"
       ],
       "Office": "36L-101",
       "Job Title": "Registrar; Baseball Coach",
@@ -674,7 +676,7 @@
   },
   "Mizrain (Rey) Reyes": {
       "Roles": [
-          "Other"
+          "Facilities"
       ],
       "Office": 106,
       "Job Title": "Director of Facilities",
@@ -692,7 +694,7 @@
   },
   "Kevin Rogers": {
       "Roles": [
-          "Other"
+          "Leadership"
       ],
       "Office": 121,
       "Job Title": "Chief Financial & Operations Officer",
@@ -701,7 +703,7 @@
   },
   "Alice Rose": {
       "Roles": [
-          "Other"
+          "Learning Services"
       ],
       "Office": 238,
       "Job Title": "Associate Director of Learning Services",
@@ -710,7 +712,7 @@
   },
   "Gilberto Saenz": {
       "Roles": [
-          "Other"
+          "Facilities"
       ],
       "Office": "Basement",
       "Job Title": "Facilities",
@@ -755,7 +757,7 @@
   },
   "Kristina Sears": {
       "Roles": [
-          "Other"
+          "Learning Services"
       ],
       "Office": "232b",
       "Job Title": "Director of Learning Services",
@@ -782,7 +784,7 @@
   },
   "Lise Shelton": {
       "Roles": [
-          "Other"
+          "Leadership"
       ],
       "Office": 105,
       "Job Title": "Associate Head of School",
@@ -791,7 +793,7 @@
   },
   "Eduardo Soza": {
       "Roles": [
-          "Other"
+          "Facilities"
       ],
       "Office": "Basement",
       "Job Title": "Facilities",
@@ -809,7 +811,7 @@
   },
   "Amy Talbot": {
       "Roles": [
-          "Advancement"
+          "Admissions"
       ],
       "Office": 125,
       "Job Title": "Director of Advancement",
@@ -827,7 +829,7 @@
   },
   "Rachel Tennenbaum": {
       "Roles": [
-          "Other"
+          "Admin"
       ],
       "Office": 122,
       "Job Title": "Director of Human Resources",
@@ -839,7 +841,7 @@
           "College Counseling"
       ],
       "Office": "36L-209",
-      "Job Title": "Associate Director of College Counseling",
+      "Job Title": "College Counselor",
       "True Office": 36209,
       "Name": "Ashley Terry"
   },
@@ -872,17 +874,18 @@
   },
   "Christina Velasco": {
       "Roles": [
-          "Counselor"
+          "Counselor",
+          "Health"
       ],
       "Office": "308a",
-      "Job Title": "School Counselor (Tu/W/F 8-4)",
+      "Job Title": "School Counselor",
       "True Office": 308,
       "Name": "Christina Velasco"
   },
   "Paola Villalvazo Cota": {
       "Roles": [
           "World Languages",
-          "Dean"
+          "Student Life"
       ],
       "Office": 206,
       "Job Title": "10th Grade Dean & Faculty (World Languages)",
@@ -918,25 +921,26 @@
   },
   "Corey Walsh": {
       "Roles": [
-          "Other"
+          "Mathematics"
       ],
       "Office": 16,
-      "Job Title": "Faculty (Math)",
+      "Job Title": "Faculty (Mathematics)",
       "True Office": 516,
       "Name": "Corey Walsh"
   },
   "Colin Williams": {
       "Roles": [
-          "Humanities"
+          "Humanities",
+          "Arts"
       ],
       "Office": 19,
-      "Job Title": "Faculty (Music, Humanities)",
+      "Job Title": "Faculty (Arts, Humanities)",
       "True Office": 519,
       "Name": "Colin Williams"
   },
   "Jennifer Wolfe": {
       "Roles": [
-          "Other"
+          "Leadership"
       ],
       "Office": 119,
       "Job Title": "Director of Marketing & Communications",
