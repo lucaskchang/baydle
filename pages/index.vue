@@ -9,18 +9,34 @@
         placeholder="Choose a staffulty member"
       />
 
-      <p
-        v-if="hasWon"
-        class="mt-8 text-center text-2xl font-bold text-[#6AAA64]"
-      >
-        You won! The staffulty member is {{ teacher.Name }}.
-      </p>
-      <p
-        v-if="hasLost"
-        class="mt-8 text-center text-2xl font-bold text-[#E53E3E]"
-      >
-        You lost! The staffulty member is {{ teacher.Name }}.
-      </p>
+      <UModal v-model="resultModal">
+        <div class="p-6">
+          <p class="text-center text-3xl font-bold">🔎 Baydle 🔍</p>
+          <div class="my-8">
+            <p
+              v-if="hasWon"
+              class="text-center text-2xl font-bold text-[#6AAA64]"
+            >
+              You won! Today's staffulty member is {{ teacher.Name }}.
+            </p>
+            <p
+              v-if="hasLost"
+              class="text-center text-2xl font-bold text-[#E53E3E]"
+            >
+              You lost! Today's staffulty member is {{ teacher.Name }}.
+            </p>
+          </div>
+          <div class="mt-4 flex justify-center">
+            <UButton
+              block
+              color="gray"
+              variant="solid"
+              @click="resultModal = false"
+              >Close</UButton
+            >
+          </div>
+        </div>
+      </UModal>
 
       <div v-if="guesses.length === 0" class="mt-8">
         <p>
@@ -119,6 +135,8 @@ const teacher = ref(teachers[order[difInDays]]);
 const teacherList = Object.keys(teachers);
 const selectedTeacher = ref('');
 
+const resultModal = ref(false);
+
 const guesses = ref([]);
 const hasWon = computed(() => {
   return guesses.value.includes(teacher.value.Name);
@@ -126,6 +144,18 @@ const hasWon = computed(() => {
 
 const hasLost = computed(() => {
   return guesses.value.length >= 10 && !hasWon.value;
+});
+
+watch(hasWon, (value) => {
+  if (value) {
+    resultModal.value = true;
+  }
+});
+
+watch(hasLost, (value) => {
+  if (value) {
+    resultModal.value = true;
+  }
 });
 
 watch(selectedTeacher, () => {
