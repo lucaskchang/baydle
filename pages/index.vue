@@ -37,8 +37,8 @@
             href="mailto:lchang24@bayschoolsf.org"
             class="font-semibold text-blue-400 hover:text-blue-500"
           >
-            lchang24@bayschoolsf.org </a
-          >.
+            lchang24@bayschoolsf.org
+          </a>
         </p>
       </div>
 
@@ -47,7 +47,6 @@
       <UDivider label="HELP" class="mb-4 mt-8" />
 
       <div>
-        <p class="text-2xl font-bold">Gameplay</p>
         <div class="mt-4 flex flex-row space-x-2 text-sm">
           <div class="flex w-1/2 flex-col space-y-2">
             <p class="text-lg font-bold">Office Number</p>
