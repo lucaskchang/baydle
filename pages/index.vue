@@ -44,12 +44,12 @@
 
       <Guess v-for="guess in guesses" :key="guess" :guess-name="guess" />
 
-      <UDivider label="HELP" class="mb-4 mt-8" />
+      <UDivider label="GAMEPLAY" class="mb-4 mt-8" />
 
       <div>
         <div class="mt-4 flex flex-row space-x-2 text-sm">
           <div class="flex w-1/2 flex-col space-y-2">
-            <p class="text-lg font-bold">Office Number</p>
+            <p class="text-xl font-bold">Office Number</p>
             <p>A green office number means the office number is spot-on.</p>
             <p>
               A yellow office number means the office is on the same floor (or
@@ -61,7 +61,7 @@
             </p>
           </div>
           <div class="flex w-1/2 flex-col space-y-2">
-            <p class="text-lg font-bold">Job Title</p>
+            <p class="text-xl font-bold">Job Title</p>
             <p>A green job title means the job title is spot-on.</p>
             <p>
               A yellow job title means the two teachers share at least one role
@@ -73,7 +73,7 @@
             </p>
           </div>
         </div>
-        <p class="mt-4 text-lg font-bold">Example</p>
+        <p class="mt-4 text-xl font-bold">Example</p>
         <div class="mx-auto mt-2 py-4">
           <div class="flex flex-col">
             <div class="rounded-lg text-xl">Scott Mackey</div>
