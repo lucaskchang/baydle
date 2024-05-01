@@ -13,18 +13,24 @@
         <div class="p-6">
           <p class="text-center text-3xl font-bold">🔎 Baydle 🔍</p>
           <div class="my-8">
-            <p
-              v-if="hasWon"
-              class="text-center text-2xl font-bold text-[#6AAA64]"
-            >
-              You won! Today's staffulty member is {{ teacher.Name }}.
+            <p class="text-center text-lg">
+              Wins: {{ wins.length }} | Losses: {{ losses.length }} | Streak:
+              {{ streak }}
             </p>
-            <p
-              v-if="hasLost"
-              class="text-center text-2xl font-bold text-[#E53E3E]"
-            >
-              You lost! Today's staffulty member is {{ teacher.Name }}.
-            </p>
+            <div class="my-4">
+              <p
+                v-if="hasWon"
+                class="text-center text-2xl font-bold text-[#6AAA64]"
+              >
+                You won! Today's staffulty member is {{ teacher.Name }}.
+              </p>
+              <p
+                v-if="hasLost"
+                class="text-center text-2xl font-bold text-[#E53E3E]"
+              >
+                You lost! Today's staffulty member is {{ teacher.Name }}.
+              </p>
+            </div>
           </div>
           <div class="mt-4 flex justify-center">
             <UButton
@@ -136,6 +142,16 @@ const teacherList = Object.keys(teachers);
 const selectedTeacher = ref('');
 
 const resultModal = ref(false);
+const wins = ref([]) as Ref<string[]>;
+const lastWin = computed(() => {
+  return new Date(wins.value[wins.value.length - 1]);
+});
+const numOfGuesses = ref([]);
+const losses = ref([]) as Ref<string[]>;
+const lastLoss = computed(() => {
+  return new Date(losses.value[losses.value.length - 1]);
+});
+const streak = ref(0);
 
 const guesses = ref([]);
 const hasWon = computed(() => {
@@ -149,12 +165,26 @@ const hasLost = computed(() => {
 watch(hasWon, (value) => {
   if (value) {
     resultModal.value = true;
+    if (date.getDate() !== lastWin.value.getDate()) {
+      wins.value.push(date.toISOString());
+      numOfGuesses.value.push(guesses.value.length);
+      localStorage.setItem('guesses', JSON.stringify(numOfGuesses.value));
+      localStorage.setItem('wins', JSON.stringify(wins.value));
+      streak.value++;
+      localStorage.setItem('streak', streak.value.toString());
+    }
   }
 });
 
 watch(hasLost, (value) => {
   if (value) {
     resultModal.value = true;
+  }
+  streak.value = 0;
+  localStorage.setItem('streak', streak.value.toString());
+  if (date.getDate() !== lastLoss.value.getDate()) {
+    losses.value.push(date.toISOString());
+    localStorage.setItem('losses', JSON.stringify(losses.value));
   }
 });
 
@@ -180,6 +210,18 @@ onMounted(() => {
   const savedGameState = localStorage.getItem('baydle');
   if (savedGameState) {
     guesses.value = JSON.parse(savedGameState);
+  }
+  const savedWins = localStorage.getItem('wins');
+  if (savedWins) {
+    wins.value = JSON.parse(savedWins);
+  }
+  const savedLosses = localStorage.getItem('losses');
+  if (savedLosses) {
+    losses.value = JSON.parse(savedLosses);
+  }
+  const savedNumOfGuesses = localStorage.getItem('numOfGuesses');
+  if (savedNumOfGuesses) {
+    numOfGuesses.value = JSON.parse(savedNumOfGuesses);
   }
 });
 </script>

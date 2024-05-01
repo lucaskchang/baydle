@@ -1,5 +1,5 @@
 <template>
-  <div class="mx-auto mt-8 p-8 text-center">
+  <div class="mx-auto my-8 p-8 text-center">
     <p>
       Created by
       <a
