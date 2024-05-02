@@ -71,18 +71,6 @@
       <div>
         <div class="mt-4 flex flex-row space-x-2 text-sm">
           <div class="flex w-1/2 flex-col space-y-2">
-            <p class="text-xl font-bold">Office Number</p>
-            <p>A green office number means the office number is spot-on.</p>
-            <p>
-              A yellow office number means the office is on the same floor (or
-              building in the case of 36L and PC) as the correct office.
-            </p>
-            <p>
-              A gray office number means the office is on a different floor or
-              building.
-            </p>
-          </div>
-          <div class="flex w-1/2 flex-col space-y-2">
             <p class="text-xl font-bold">Job Title</p>
             <p>A green job title means the job title is spot-on.</p>
             <p>
@@ -92,6 +80,18 @@
             <p>
               A gray job title means the two teachers are in different
               departments.
+            </p>
+          </div>
+          <div class="flex w-1/2 flex-col space-y-2">
+            <p class="text-xl font-bold">Office Number</p>
+            <p>A green office number means the office number is spot-on.</p>
+            <p>
+              A yellow office number means the office is on the same floor (or
+              building in the case of 36L and PC) as the correct office.
+            </p>
+            <p>
+              A gray office number means the office is on a different floor or
+              building.
             </p>
           </div>
         </div>
@@ -170,8 +170,13 @@ watch(hasWon, (value) => {
       numOfGuesses.value.push(guesses.value.length);
       localStorage.setItem('guesses', JSON.stringify(numOfGuesses.value));
       localStorage.setItem('wins', JSON.stringify(wins.value));
-      streak.value++;
-      localStorage.setItem('streak', streak.value.toString());
+      if (date.getDate() === lastWin.value.getDate() + 1) {
+        streak.value = streak.value + 1;
+        localStorage.setItem('streak', streak.value.toString());
+      } else {
+        streak.value = 1;
+        localStorage.setItem('streak', streak.value.toString());
+      }
     }
   }
 });
