@@ -228,5 +228,9 @@ onMounted(() => {
   if (savedNumOfGuesses) {
     numOfGuesses.value = JSON.parse(savedNumOfGuesses);
   }
+  const savedStreak = localStorage.getItem('streak');
+  if (savedStreak) {
+    streak.value = parseInt(savedStreak);
+  }
 });
 </script>
