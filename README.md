@@ -1,5 +1,3 @@
-# Lukajaa Nuxt Template
+# Baydle
 
-Nuxt Template used for my personal projects. Includes NuxtUI, ESLint, Prettier, and Google Analytics.
-
-Preview: [https://template.lucaskchang.com](https://template.lucaskchang.com)
+Welcome to Baydle, a game where you guess the Bay staffulty member based on their job title and office number.
