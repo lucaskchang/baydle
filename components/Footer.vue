@@ -11,7 +11,7 @@
       </a>
       Made with
       <a
-        href="https://github.com/lukajaa/baydle"
+        href="https://github.com/lucaskchang/lukajaa-nuxt-template"
         target="_blank"
         class="font-semibold text-blue-400 hover:text-blue-500"
       >
